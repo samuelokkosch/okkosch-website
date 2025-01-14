@@ -1,3 +1,45 @@
+body {
+  background-color: blue;
+}
+
+.home-button {
+  background-color: green;
+}
+
+.studio-header {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.studio-blume {
+  width: 120px;
+}
+
 .me-in-studio {
-  max-width: 100%
+  max-width: 100%;
+  margin-top: 20px
+}
+
+h1 {
+  color: pink;
+}
+
+p {
+  color: pink;
+  margin-top: 10px;
+}
+
+a {
+  color: pink !important;
+  font-weight: 400 !important;
+}
+
+a:hover {
+  font-weight: 600 !important;
+  color: green !important;
+}
+
+.copyright {
+  color: pink;
 }
