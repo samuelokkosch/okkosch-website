@@ -66,8 +66,8 @@ h3 {
 
 .home-button:hover {
   cursor: pointer;
-  background-color: yellow;
-  transition: 0.4s;
+  background-color: red;
+  transition: 0.2s;
 }
 
 .email-link {
