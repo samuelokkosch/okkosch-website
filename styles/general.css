@@ -64,6 +64,11 @@ h3 {
   border-width: 1px;
 }
 
+.home-button:hover {
+  cursor: pointer;
+  background-color: yellow;
+  transition: 0.4s;
+
 .email-link {
   color: white;
   font-weight: 700;
