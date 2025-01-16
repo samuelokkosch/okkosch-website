@@ -1,0 +1,31 @@
+.youtube-overlay {
+  position: fixed;
+  inset: 0;
+  background: #3737376c;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.youtube-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.youtube-popup {
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10%;
+}
+
+.youtube-popup iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: auto;
+  max-height: 600px;
+}
+
+.yt-plink:hover {
+  cursor: pointer;
+}
