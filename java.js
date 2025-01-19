@@ -1,5 +1,5 @@
 const YTPlayerOverlay = document.querySelector(".youtube-overlay");
-const YTLinks = document.querySelectorAll(".ytp-herzog")
+const YTLinks = document.querySelectorAll(".ytp-videos")
 
 YTLinks.forEach((link) => {
   link.addEventListener("click", () => {
