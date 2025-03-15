@@ -71,8 +71,7 @@ hr {
   margin: 10px 0; /* Optional: Adjust spacing around the hr element */
 }
 
-.live-shows-list a,
-.live-shows-list p{
+.live-shows-list p {
   display: block;
   font-size: 1rem;
   font-weight: 400;
@@ -80,7 +79,7 @@ hr {
   text-align: right;
 }
 
-.live-show {
+.live-show a {
   font-weight: 600;
 }
 
