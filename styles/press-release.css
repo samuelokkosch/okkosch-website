@@ -30,9 +30,16 @@ img {
 }
 
 .event {
-  color: black;
+  color: rgb(255, 176, 29);
 }
 
 .contact {
   margin-bottom: 5px;
+}
+
+.reviews a {
+  color: rgb(255, 176, 29);
+}
+.underline {
+  text-decoration: underline;
 }
