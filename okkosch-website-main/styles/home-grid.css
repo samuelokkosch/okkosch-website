@@ -1,0 +1,157 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap:70px;
+  row-gap: 60px;
+  margin-top: 20px;
+
+  @media (width >= 40em) {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 70px;
+  }
+
+  @media (width >= 80em) {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+  }
+}
+
+.out-now-box, .live-shows-box, .discography-box,
+.videos-box, .studio-producing-box,
+.shop-box, .who-am-i-box {
+  background-color: rgba(173, 216, 230, 0);
+}
+
+.home-grid img {
+  max-width: 100%;
+  width: auto;
+}
+
+.live-shows-box,
+.studio-box,
+.link-box,
+.discography-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.out-now-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.out-now-title,
+.out-now-title a {
+  font-size: 1rem;
+  color: white;
+}
+
+.out-now-title {
+  margin: 0 0 10px 0;
+  text-decoration: none;
+}
+
+.out-now-cover:hover {
+  border:2px solid blue;
+  box-sizing: border-box;
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 1px; /* Set height to make it look like a line */
+  background: repeating-linear-gradient(
+    to right, 
+    #ffffff 0%, /* Dot color (black in this case) */
+    #ffffff 1px, /* Size of each square dot */
+    transparent 1px, /* Space between dots */
+    transparent 5px /* Length of space between dots */
+  );
+  margin: 10px 0; /* Optional: Adjust spacing around the hr element */
+}
+
+.live-shows-list {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  text-align: right;
+}
+
+.live-show {
+  font-weight: 700;
+  color: white;
+}
+
+.sonnenblume {
+  width: 90px;
+  margin: 40px 190px -80px 0
+}
+
+.newsletter-title {
+  position:relative;
+}
+
+.schnecke {
+  width: 80px;
+  position: absolute;
+  left: 200px;
+  top: -40px;
+}
+
+.schnecke img{
+  transform: scaleX(-1);
+  rotate: 20deg;
+}
+
+.newsletter-info {
+  color: white;
+}
+
+.newsletter-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.discography-info,
+.studio-info {
+  color: white;
+}
+
+.discography-info a{
+  color: white;
+  text-decoration: underline;
+}
+
+.trio-blume {
+  width: 80px;
+  margin: 30px -20px -80px 0
+}
+
+.videos-blume {
+  width: 130px;
+}
+
+.studio-blume {
+  width: 100px;
+  margin: 0 120px -70px 0
+}
+
+.manderinli {
+  width: 150px;
+}
+
+.libelle {
+  width: 100px;
+  margin: 40px 90px -150px 0
+}
+
+.link a {
+  color: white;
+  font-weight: 200;
+}
+
+.link a:hover {
+  font-weight: 600;
+}

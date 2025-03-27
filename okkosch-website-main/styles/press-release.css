@@ -1,0 +1,45 @@
+body {
+  background-color: #943db2b2;
+}
+
+.absatz1 {
+  margin-bottom: 5px;
+}
+
+.absatz2 {
+  margin-top: 20px;
+}
+
+.link {
+  color: rgb(255, 176, 29);
+  font-weight: 700;
+  font-size: 1 rem;
+  margin: 20px 0 5px 0;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.event {
+  color: rgb(255, 176, 29);
+}
+
+.contact {
+  margin-bottom: 5px;
+}
+
+.reviews a {
+  color: rgb(255, 176, 29);
+}
+.underline {
+  text-decoration: underline;
+}

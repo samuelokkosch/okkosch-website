@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(72, 46, 5);
+}
+
+h1 {
+  color: pink; 
+}
+
+h3 {
+  color: white;
+  margin-left: 10px;
+}
+
+p {
+  color: white;
+  margin: 10px 0 10px 10px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+}
+
+.about-title {
+  display: inline-flex;
+  align-items: center;
+  margin: 0
+}
+
+.okkosch-blume {
+  width: 60px;
+  height: auto;
+  margin-left: 0px;
+  padding-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.link-box {
+  margin: 10px 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: rgb(152, 127, 87);
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.link:hover {
+  font-weight: 600
+}
+
+.link-line {
+  margin-top: 5px;
+}
